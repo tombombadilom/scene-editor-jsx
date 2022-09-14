@@ -7,7 +7,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@theatre/core": "^0.5",
-    "@theatre/r3f": "^0.5",
+    "@theatre/r3f": "0.5.0-insiders.735bd98",
     "@theatre/studio": "^0.5",
     "@theatre/react": "^0.5",
     "react": "^18.2.0",
