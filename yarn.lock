@@ -1806,39 +1806,39 @@
     "@babel/runtime" "^7.12.5"
 
 "@theatre/core@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/core/-/core-0.5.0-rc.3.tgz#422df792c6c5098b3f7375e9543c87eed635f711"
-  integrity sha512-QLgswnZWwafHJ1hUKNBWx0wySQBPpZAA32vYkYFhbHoPATMeBqGXmP1iVxQ4LL0vGuf57+TTAaPuJtb3abNqEQ==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/core/-/core-0.5.1.tgz#5a10b8a9a8e5887371e870732c043340a6f5be5a"
+  integrity sha512-LV3LwHPWVm62bR6DUQ55t4kCaI1KGrz+rPLoA6pMJ57x+6vBpoSCI0b11gJPdA1mCXebcNWN+U5M3PP6jJaSSg==
   dependencies:
-    "@theatre/dataverse" "0.5.0-rc.3"
+    "@theatre/dataverse" "0.5.1"
 
-"@theatre/dataverse@0.5.0-rc.3":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/dataverse/-/dataverse-0.5.0-rc.3.tgz#19b9c56c05efc20ef018c59afbd6efeb913cf134"
-  integrity sha512-n+zAz58C0q/wvABhS3OLu5tFOLBv3ZDg0ix0iZK40vWE3cJBJSv+Z8K7LZi8ODPWftAWb9yXcUVCtTjlPYY6xA==
+"@theatre/dataverse@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/dataverse/-/dataverse-0.5.1.tgz#75dd106de042fe11265314edefa98d0045714405"
+  integrity sha512-oTjR8fNDbY11GSp7kw8quuOE9IC/5qzTe++OjFgn5enHKcFSaSPAZ8SIyOs+Im9bYgjcJFg/AYgU3Xi/MENgwQ==
   dependencies:
     lodash-es "^4.17.21"
 
-"@theatre/r3f@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/r3f/-/r3f-0.5.0-rc.3.tgz#42f1fa3d12e688a98f46fc380b4164bf9767a361"
-  integrity sha512-lmwLxnSbkcVOOznWbDTSzhzU1mE9Hh8yoKYhTsNMUE3b3uhYK2GUEirZBF4iGTd3duIO+/UBGmfIt09wwTSUYw==
+"@theatre/r3f@0.5.0-insiders.735bd98":
+  version "0.5.0-insiders.735bd98"
+  resolved "https://registry.yarnpkg.com/@theatre/r3f/-/r3f-0.5.0-insiders.735bd98.tgz#2c898974bbb58f6187820eb4e2a1ce6798332a1b"
+  integrity sha512-cKplV8MkiEyPwN+VHM14lRzlyWHFJ+DbEFC4sdkQhWi8w7Jp6ihs9lGUBDlcl00fieFQpEmsRP1PWYcZRdjm7Q==
 
 "@theatre/react@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/react/-/react-0.5.0-rc.3.tgz#5003b7df3c3fc138568dd19575bd6deb6faf3de4"
-  integrity sha512-qaHTNnQvsbsvyCfmaACg5U9g8auk2vIpgkFvFLWvuCPzTLaoRAg11HkiuwiamLeF4sjPQ7xKEtJaFX4D03SF2g==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/react/-/react-0.5.1.tgz#5cdf797dda8ef6eeb8d4ad886071e6957c92b1d3"
+  integrity sha512-Z/Kamt3GLU9NfT23eFsjiafAXW3A+gQgnan4llal/WI+qF6uaU1OO7rXz87gW3+orrNjq1DJEPlJVRudZpIeLA==
   dependencies:
-    "@theatre/dataverse" "0.5.0-rc.3"
+    "@theatre/dataverse" "0.5.1"
     lodash-es "^4.17.21"
     queue-microtask "^1.2.3"
 
 "@theatre/studio@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/studio/-/studio-0.5.0-rc.3.tgz#544ee51f69c90286fa80ed0a66e53b2ee82a79cd"
-  integrity sha512-4N3VH6hUZxFsrnFt2j23MV4gsMHtR9WHMsUA+dw0Fx6Ymhex5cHIy0vn2tZOc75Z+oosKpLdKAJseNxO1RfhVQ==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/studio/-/studio-0.5.1.tgz#1dbe3d99943b1e628b7e5722499290961ba74c12"
+  integrity sha512-6r8JjSdUhL8JXMLlnhOLLFc/Br5Ddcq4EQmwUSCEBbFuJZcyb++GxV23p5W7a0DiB7NgtKdORj77n5NBt0WEpA==
   dependencies:
-    "@theatre/dataverse" "0.5.0-rc.3"
+    "@theatre/dataverse" "0.5.1"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -5853,9 +5853,9 @@ json-stable-stringify-without-jsonify@^1.0.1:
   integrity sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
 
 json5@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.2.tgz#63d98d60f21b313b77c4d6da18bfa69d80e1d593"
+  integrity sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==
   dependencies:
     minimist "^1.2.0"
 
@@ -6178,9 +6178,9 @@ minimatch@^5.0.1:
     brace-expansion "^2.0.1"
 
 minimist@^1.2.0, minimist@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
-  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 mkdirp@~0.5.1:
   version "0.5.6"
