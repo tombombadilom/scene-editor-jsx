@@ -1806,39 +1806,39 @@
     "@babel/runtime" "^7.12.5"
 
 "@theatre/core@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/core/-/core-0.5.0-rc.3.tgz#422df792c6c5098b3f7375e9543c87eed635f711"
-  integrity sha512-QLgswnZWwafHJ1hUKNBWx0wySQBPpZAA32vYkYFhbHoPATMeBqGXmP1iVxQ4LL0vGuf57+TTAaPuJtb3abNqEQ==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/core/-/core-0.5.1.tgz#5a10b8a9a8e5887371e870732c043340a6f5be5a"
+  integrity sha512-LV3LwHPWVm62bR6DUQ55t4kCaI1KGrz+rPLoA6pMJ57x+6vBpoSCI0b11gJPdA1mCXebcNWN+U5M3PP6jJaSSg==
   dependencies:
-    "@theatre/dataverse" "0.5.0-rc.3"
+    "@theatre/dataverse" "0.5.1"
 
-"@theatre/dataverse@0.5.0-rc.3":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/dataverse/-/dataverse-0.5.0-rc.3.tgz#19b9c56c05efc20ef018c59afbd6efeb913cf134"
-  integrity sha512-n+zAz58C0q/wvABhS3OLu5tFOLBv3ZDg0ix0iZK40vWE3cJBJSv+Z8K7LZi8ODPWftAWb9yXcUVCtTjlPYY6xA==
+"@theatre/dataverse@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/dataverse/-/dataverse-0.5.1.tgz#75dd106de042fe11265314edefa98d0045714405"
+  integrity sha512-oTjR8fNDbY11GSp7kw8quuOE9IC/5qzTe++OjFgn5enHKcFSaSPAZ8SIyOs+Im9bYgjcJFg/AYgU3Xi/MENgwQ==
   dependencies:
     lodash-es "^4.17.21"
 
-"@theatre/r3f@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/r3f/-/r3f-0.5.0-rc.3.tgz#42f1fa3d12e688a98f46fc380b4164bf9767a361"
-  integrity sha512-lmwLxnSbkcVOOznWbDTSzhzU1mE9Hh8yoKYhTsNMUE3b3uhYK2GUEirZBF4iGTd3duIO+/UBGmfIt09wwTSUYw==
+"@theatre/r3f@0.5.0-insiders.735bd98":
+  version "0.5.0-insiders.735bd98"
+  resolved "https://registry.yarnpkg.com/@theatre/r3f/-/r3f-0.5.0-insiders.735bd98.tgz#2c898974bbb58f6187820eb4e2a1ce6798332a1b"
+  integrity sha512-cKplV8MkiEyPwN+VHM14lRzlyWHFJ+DbEFC4sdkQhWi8w7Jp6ihs9lGUBDlcl00fieFQpEmsRP1PWYcZRdjm7Q==
 
 "@theatre/react@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/react/-/react-0.5.0-rc.3.tgz#5003b7df3c3fc138568dd19575bd6deb6faf3de4"
-  integrity sha512-qaHTNnQvsbsvyCfmaACg5U9g8auk2vIpgkFvFLWvuCPzTLaoRAg11HkiuwiamLeF4sjPQ7xKEtJaFX4D03SF2g==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/react/-/react-0.5.1.tgz#5cdf797dda8ef6eeb8d4ad886071e6957c92b1d3"
+  integrity sha512-Z/Kamt3GLU9NfT23eFsjiafAXW3A+gQgnan4llal/WI+qF6uaU1OO7rXz87gW3+orrNjq1DJEPlJVRudZpIeLA==
   dependencies:
-    "@theatre/dataverse" "0.5.0-rc.3"
+    "@theatre/dataverse" "0.5.1"
     lodash-es "^4.17.21"
     queue-microtask "^1.2.3"
 
 "@theatre/studio@^0.5":
-  version "0.5.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@theatre/studio/-/studio-0.5.0-rc.3.tgz#544ee51f69c90286fa80ed0a66e53b2ee82a79cd"
-  integrity sha512-4N3VH6hUZxFsrnFt2j23MV4gsMHtR9WHMsUA+dw0Fx6Ymhex5cHIy0vn2tZOc75Z+oosKpLdKAJseNxO1RfhVQ==
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@theatre/studio/-/studio-0.5.1.tgz#1dbe3d99943b1e628b7e5722499290961ba74c12"
+  integrity sha512-6r8JjSdUhL8JXMLlnhOLLFc/Br5Ddcq4EQmwUSCEBbFuJZcyb++GxV23p5W7a0DiB7NgtKdORj77n5NBt0WEpA==
   dependencies:
-    "@theatre/dataverse" "0.5.0-rc.3"
+    "@theatre/dataverse" "0.5.1"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -8776,9 +8776,9 @@ webpack-sources@^3.2.3:
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
 webpack@^5.64.4:
-  version "5.74.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.74.0.tgz#02a5dac19a17e0bb47093f2be67c695102a55980"
-  integrity sha512-A2InDwnhhGN4LYctJj6M1JEaGL7Luj6LOmyBHjcI8529cm5p6VXiTIW2sn6ffvEAKmveLzvu4jrihwXtPojlAA==
+  version "5.76.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.76.1.tgz#7773de017e988bccb0f13c7d75ec245f377d295c"
+  integrity sha512-4+YIK4Abzv8172/SGqObnUjaIHjLEuUasz9EwQj/9xmPPkYJy2Mh03Q/lJfSD3YLzbxy5FeTq5Uw0323Oh6SJQ==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
